@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.utils.safestring import mark_safe
 from .models import About, Project, Education, Skill
 
 
@@ -17,7 +18,7 @@ class ProjectAdmin(admin.ModelAdmin):
 
     def image_preview(self, obj):
         if obj.image:
-            return f'<img src="{obj.image.url}" width="150"/>'
+            return mark_safe(f'<img src="{obj.image.url}" width="150"/>')
         return "(sem imagem)"
     image_preview.allow_tags = True
     image_preview.short_description = "Prévia da Imagem"
