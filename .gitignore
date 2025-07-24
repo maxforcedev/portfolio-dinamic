@@ -1,0 +1,37 @@
+# === Node (Next.js) ===
+frontend/node_modules
+frontend/.next
+frontend/.env.local
+frontend/.env
+
+# === Python (Django) ===
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.sqlite3
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/.env
+*.log
+*.env
+# === Docker ===
+**/.env
+**/.env.*
+.env
+docker-compose.override.yml
+
+# === OS e IDEs ===
+*.DS_Store
+*.vscode/
+*.idea/
+*.swp
+
+# === Git ===
+*.orig
+*.lock
+
+# === Arquivos ZIP e builds ===
+*.zip
+*.tar
+*.tar.gz
+*.tgz
