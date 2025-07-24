@@ -1,0 +1,19 @@
+# Ignorar dependências locais
+node_modules
+.next
+dist
+
+# Ignorar configs e arquivos de build locais
+Dockerfile
+docker-compose.yml
+.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar arquivos grandes ou desnecessários
+*.log
+*.md
+*.pdf
+/media
+/public/uploads
