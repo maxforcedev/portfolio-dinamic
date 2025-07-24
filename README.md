@@ -5,15 +5,10 @@ Este repositório contém **frontend** e **backend** completos para um portfóli
 
 ---
 
-## 👨‍💻 Luis Felipe — Backend Developer
-
-Desenvolvedor backend com foco em Python e Django, criando sistemas reais para resolver problemas reais — de APIs escaláveis a sistemas para prefeituras, salões e controle financeiro.  
-Veja o site online 👉 **[maxforcedev.com.br](https://maxforcedev.com.br)**
-
----
 
 ## 🖼️ Preview
 
+Veja o site online 👉 **[maxforcedev.com.br](https://maxforcedev.com.br)**
 ![Tela inicial](./frontend/public/screenshot-home.png)
 ![Sobre e Habilidades](./frontend/public/screenshot-sobre.png)
 ![Formação e Cursos](./frontend/public/screenshot-formacao.png)
