@@ -5,6 +5,7 @@ frontend/.env.local
 frontend/.env
 
 # === Python (Django) ===
+__pycache__/
 backend/__pycache__/
 backend/*.py[cod]
 backend/*.sqlite3
